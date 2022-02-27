@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}
+body{
+	background-color: mintcream;
+	height: 100%;
+}
+/* nav edit */
+nav ul{
+	list-style: none;
+	display: inline-flex;
+}
+nav ul li a{
+	text-decoration: none;
+	display: inline-grid;
+	grid-column-gap:10px;
+	grid-template-columns: auto auto auto auto auto auto;
+	color: white;
+}
+.header{
+	text-align: right;
+	background-color: skyblue;
+	padding: 30px;
+	font-weight: bold;
+	transition: all .3s ease;
+}
+nav ul li a:hover{
+	background-color: black;
+}
+.container{
+	background-color: mintcream;
+	padding: 50px;
+}
+@media screen and (max-width: 480px){
+	body{
+		background-color: lightblue;
+	}
+}
+
