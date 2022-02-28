@@ -1,5 +1,5 @@
 *{
-	margin: 0;
+	margin: 2px;
 	padding: 0;
 	font-size: 20px;
 }
@@ -14,9 +14,8 @@ nav ul{
 }
 nav ul li a{
 	text-decoration: none;
-	display: inline-grid;
-	grid-column-gap:10px;
-	grid-template-columns: auto auto auto auto auto auto;
+	display: inline;
+	margin-right: 50px;
 	color: white;
 }
 .header{
@@ -33,9 +32,17 @@ nav ul li a:hover{
 	background-color: mintcream;
 	padding: 50px;
 }
-@media screen and (max-width: 480px){
-	body{
-		background-color: lightblue;
-	}
+.left-column{
+	background-color: #87cefa;
+	float: left;
+	padding: 80px;
+	width: 39%;
+	height: 300px;
 }
-
+.right-column{
+	background-color: #5b5b7d;
+	float: right;
+	padding: 50px;
+	width: 42%;
+	height: 300px;
+}
