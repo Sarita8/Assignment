@@ -7,7 +7,6 @@ body{
 	background-color: mintcream;
 	height: 100%;
 }
-/* nav edit */
 nav ul{
 	list-style: none;
 	display: inline-flex;
@@ -23,7 +22,7 @@ nav ul li a{
 	background-color: skyblue;
 	padding: 30px;
 	font-weight: bold;
-	transition: all .3s ease;
+	transition: width 1s;
 }
 nav ul li a:hover{
 	background-color: black;
@@ -46,3 +45,63 @@ nav ul li a:hover{
 	width: 42%;
 	height: 300px;
 }
+.contact-form{
+	text-align: center;
+	background-color: skyblue;
+}
+h1{
+	text-transform: uppercase;
+}
+/*slide*/
+.grid-container{
+	display: grid;
+	grid-gap: 10px;
+	background-color: skyblue;
+	padding: 20px;
+}
+@media screen and (max-width: 500px){
+	body{
+		background-color: white;
+		height: 70%;
+	}
+	nav ul{
+		list-style: none;
+		display: flex;
+	}
+	nav ul li a{
+		color: grey;
+	}
+	.header{
+		text-align: right;
+		background-color: lightblue;
+		padding: 20px;
+		font-weight: bold;
+	}
+	nav u li a:hover{
+		background-color: whi†e;
+	}
+	.container{
+		background-color: white;
+		padding: 20px;
+	}
+	.left-column{
+		background-color: #ad7676;
+		float: left;
+		padding: 80px;
+		width: 20%;
+		height: 100%;
+	}
+	.right-column{
+		background-color: #c9c4c4;
+		float: right;
+		padding: 50px;
+		width: 25%;
+		height: 100%;
+	}
+}
+
+
+
+
+
+
