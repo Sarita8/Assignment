@@ -17,35 +17,47 @@ nav ul li a{
 	text-decoration: none;
 	display: inline;
 	margin-right: 50px;
-	color: white;
+	color: black;
+	transition: ease-out 2s;
 }
-.header{
+.lead{
 	text-align: right;
 	background-color: skyblue;
-	padding: 30px;
+	padding: 20px;
 	font-weight: bold;
-	transition: width 1s;
 }
 nav ul li a:hover{
-	background-color: black;
+	background-color: white;
 }
-.container{
+.leading{
 	background-color: mintcream;
-	padding: 50px;
+	padding: 100px;
+	height: 100%;
 }
-.left-column{
+h2{
+	text-align: center;
+}
+.leading p{
+	text-align: center;
+}
+.information{
+	background-color: skyblue;
+	padding: 100px;
+	text-align: center;
+}
+.column-1{
 	background-color: #87cefa;
 	float: left;
 	padding: 80px;
 	width: 39%;
-	height: 300px;
+	height: 100%;
 }
-.right-column{
+.column-2{
 	background-color: #5b5b7d;
 	float: right;
 	padding: 50px;
 	width: 42%;
-	height: 300px;
+	height: 100%;
 }
 /*Easy WebCode*/
 .contact-form{
@@ -56,52 +68,49 @@ h1{
 	text-transform: uppercase;
 }
 /*slides*/
-.grid-container{
+.giant-container{
 	display: grid;
-	grid-gap: 10px;
-	background-color: skyblue;
-    padding: 20px;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 60% 40%;	
 }
-.item1{
-	grid-column-start: 1;
-	grid-column-end: 3;
-}
-.item2{
-	grid-column-start: 1;
-	grid-column-end: 3;
-}
-.item3{
-	grid-column-start: 1;
-	grid-column-end: 3;
+.days{
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 15px;
+	background-color: lightskyblue;
+	padding: 20px;
+	height: 93.2%;
 }
 .skill{
-	background-color: skyblue;
-	float: left;
-	padding: 20px;
-	width: 97%;
-	height: 100%;
+	background-color: lightskyblue;
+	padding: 20px;	
 }
-.report{
+.site-report{
 	background-color: wheat;
 	padding: 20px;
 	width: 97%;
 }
-.image{
+.p2{
+	margin-top:20px;
+}
+.p3{
+	margin-top: 20px;
+}
+.photos{
 	border: 0;
 }
 h4{
 	text-align: center;
+	padding-bottom: 10px;
 }
 h5{
-	text-align: left;
+	text-align: center;
 	font-size: large;
-	padding: 5px;
+	padding: 10px;
 }
 h6{
-	text-align: right;
+	text-align: center;
 	font-size: large;
-	padding: 5px;
+	padding: 10px;
 }
 .reference{
 	background-color: wheat;
@@ -118,22 +127,33 @@ h6{
 		display: flex;
 	}
 	nav ul li a{
-		color: grey;
+		color: brown;
 	}
-	.header{
+	.lead{
 		text-align: right;
 		background-color: lightblue;
 		padding: 20px;
 		font-weight: bold;
 	}
 	nav u li a:hover{
-		color: white;
+		color: black;
 	}
-	.container{
+	.leading{
 		background-color: white;
-		padding: 20px;
+		padding: 80px;
 	}
-	.left-column{
+	h2{
+		text-align: center;
+	}
+	.leading p{
+		text-align: center;
+	}
+	.information{
+		background-color: lightblue;
+		padding: 80px;
+		text-align: center;
+	}
+	.column-1{
 		background-color: #ad7676;
 		float: left;
 		padding-top: 10px;
@@ -143,7 +163,7 @@ h6{
 		width: 45%;
 		height: 100%;
 	}
-	.right-column{
+	.column-2{
 		background-color: #c9c4c4;
 		float: right;
 		padding-top: 10px;
@@ -160,31 +180,43 @@ h6{
 	h1{
 		text-transform: uppercase;
 	}
-	.grid-container{
+	.giant-container{
 		display: grid;
-		grid-gap: 7px;
-		background-color: lightskyblue;
+		grid-template-columns: 60% 40%;
+		margin-right: 10px;
+	}
+	.days{
+		display: grid;
+		grid-template-rows: 1fr 1fr 1fr;
+		grid-gap: 30px;
+		background-color: deepskyblue;
 		padding: 15px;
-		grid-template-columns: 1fr 1fr 1fr;
+	    height: 96.5%;	
 	}
 	.skill{
-		background-color: lightskyblue;
-		float: left;
+		background-color: deepskyblue;
 		padding: 15px;
-		width: 94%;
-		height: 100%;
 	}
-	.report{
+	.skill p{
+		font-size: 20px;
+	}
+	.site-report{
 		background-color: peachpuff;
 		padding: 15px;
 		width: 95%;
+	}
+	.p2{
+		margin-top: 15px;
+	}
+	.p3{
+		margin-top: 15px;
 	}
 	.reference{
 		background-color: peachpuff;
 		padding: 15px;
 		width: 95%;
 	}
-	.image{
+	.photos{
 		border: 0;
 	}
 }
